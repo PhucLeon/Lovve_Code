@@ -7,9 +7,9 @@
 $(document).ready(function () {
   setTimeout(function () {
     $(".spinner").fadeOut();
-    $("#preloader").delay(350).fadeOut("slow");
-    $("body").delay(350).css({ overflow: "visible" });
-  }, 600);
+    $("#preloader").delay(330).fadeOut("slow");
+    $("body").delay(330).css({ overflow: "visible" });
+  }, 550);
 });
 
 
